@@ -86,26 +86,26 @@
 % COLOR THEMES SELECTION
 % For Light theme un-comment this and comment the Dark theme section below
 
-% \colorlet{urlcolor}{blue}
-% \colorlet{textcolor}{black}
-% \newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/CV Dark Theme}{See Dark theme}}
-% \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
+\colorlet{urlcolor}{blue}
+\colorlet{textcolor}{black}
+\newcommand{\otherThemeRef}{\href{https://raw.githubusercontent.com/Hyprnx/resume/main/CV Dark Theme.pdf}{See Dark theme}}
+\newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 
 % For Dark theme un-comment this and comment the Light theme section above
 
-\colorlet{textcolor}{white!80!gray}
-\colorlet{backgroundcolor}{black!30!gray}
-\colorlet{urlcolor}{blue!25!white}
+% \colorlet{textcolor}{white!80!gray}
+% \colorlet{backgroundcolor}{black!30!gray}
+% \colorlet{urlcolor}{blue!25!white}
 \AtBeginDocument{\color{textcolor}}
-\newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/CV Light Theme}{See light theme}}
-\newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
+% \newcommand{\otherThemeRef}{\href{https://raw.githubusercontent.com/Hyprnx/resume/main/CV Light Theme.pdf}{See light theme}}
+% \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 % ---
 
 % DOCUMENT MAIN
 \begin{document}
 
 % For Dark theme also un-comment this line:
-\pagecolor{backgroundcolor}
+% \pagecolor{backgroundcolor}
 
 % HEADING
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
