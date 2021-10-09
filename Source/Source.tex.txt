@@ -88,7 +88,7 @@
 
 \colorlet{urlcolor}{blue}
 \colorlet{textcolor}{black}
-\newcommand{\otherThemeRef}{\href{https://raw.githubusercontent.com/Hyprnx/resume/main/CV Dark Theme.pdf}{See Dark theme}}
+\newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV Dark Theme.pdf}{See Dark theme}}
 \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 
 % For Dark theme un-comment this and comment the Light theme section above
@@ -97,7 +97,7 @@
 % \colorlet{backgroundcolor}{black!30!gray}
 % \colorlet{urlcolor}{blue!25!white}
 \AtBeginDocument{\color{textcolor}}
-% \newcommand{\otherThemeRef}{\href{https://raw.githubusercontent.com/Hyprnx/resume/main/CV Light Theme.pdf}{See light theme}}
+% \newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV%20Light%20Theme.pdf}{See light theme}}
 % \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 % ---
 
