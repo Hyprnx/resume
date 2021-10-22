@@ -195,7 +195,7 @@
             {Certificate}{Received Date}{(Name and score(s) are given, if possible below)}{}
             
         \resumeSubSubheading{
-            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/IELTS}{IELTS 7.0}}{Issued April 2019}
+            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/IELTS.jpg}{IELTS 7.0}}{Issued April 2019}
             
         \resumeSubSubheading{
             \href{https://github.com/Hyprnx/resume/blob/main/Certificates/IC 3.pdf}{The Internet and Computing Core Certification: 2520}}{Issued December 2019}
