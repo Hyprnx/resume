@@ -86,27 +86,27 @@
 % COLOR THEMES SELECTION
 % For Light theme un-comment this and comment the Dark theme section below
 
-% \colorlet{urlcolor}{blue}
-% \colorlet{textcolor}{black}
-% \newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Dark_Theme.pdf}{See Dark theme}}
-% \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
+\colorlet{urlcolor}{blue}
+\colorlet{textcolor}{black}
+\newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Dark_Theme.pdf}{See Dark theme}}
+\newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 
 % For Dark theme un-comment this and comment the Light theme section above
 
-\colorlet{textcolor}{white!80!gray}
-\colorlet{backgroundcolor}{black!30!gray}
-\colorlet{urlcolor}{blue!25!white}
+% \colorlet{textcolor}{white!80!gray}
+% \colorlet{backgroundcolor}{black!30!gray}
+% \colorlet{urlcolor}{blue!25!white}
 \AtBeginDocument{\color{textcolor}}
-\newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Light_Theme.pdf}{See light theme}}
-\newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
+% \newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Light_Theme.pdf}{See light theme}}
+% \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 % ---
 
 % DOCUMENT MAIN
 \begin{document}
 
 % For Dark theme also un-comment this line:
-\pagecolor{backgroundcolor}
-
+% \pagecolor{backgroundcolor}
+% 
 % HEADING
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
     \textbf{\href{https://hyprnx.github.io}{\Large To Duc Anh}} &  \href{https://github.com/hyprnx}{ \faicon{github} \color{urlcolor} Hyprnx} \\
@@ -118,7 +118,7 @@
 
 % INTRODUCTION
 \section{Introduction}
-    I am a third year Data Science student at National Economics University (NEU) who is learning and gaining knowledge and experience in my field. With the passion for data science, economics and programming, i believe that i am capable of finishing assigned task at the finest level.
+    I am a third-year Data Science student at National Economics University (NEU) who is learning and gaining knowledge and experience in my field. With a passion for data science, economics, and programming, I believe that I am capable of finishing the assigned task at the finest level.
     
 % EXPERIENCE
 \section{Experience}
@@ -127,7 +127,7 @@
             {DSLAB NEU}{Hanoi, Vietnam}
             {Member}{November 2021 - Present}
             \resumeItemListStart
-                \resumeItem{DSLAB is a laboratory belong to the Faculty of Mathematics Economics (MFE) , National Economics University (NEU), specialized in the fields of Data Science and Artificial Intelligent (DS & AI)).}
+                \resumeItem{DSLAB is a laboratory belonging to the Faculty of Mathematics Economics (MFE), National Economics University (NEU), specialized in the fields of Data Science and Artificial Intelligent (DS \& AI)).}
             \resumeItemListEnd
     
         \resumeSubheading
@@ -145,8 +145,8 @@
             \resumeItemListStart
                 \resumeItem{
                 Designed, implemented crawlers to crawl data from LinkedIn, Google, Wikipedia, etc. with BeautifulSoup and requests library in Python.}
-                \resumeItem{Optimized existing crawlers, lower 3 times running time.}
-                \resumeItem{Developed query data APIs to serve customer's demand base on Elasticsearch search engine.}
+                \resumeItem{Optimized existing crawlers, lower three times running time.}
+                \resumeItem{Developed query data APIs to serve customer's demand based on Elasticsearch search engine.}
                 \resumeItem{Designed unit and intergration tests for APIs.}
             \resumeItemListEnd
                 \resumeTech{Technologies}{Docker, Python, Swagger, Flask, Beautifulsoup, Selenium, Unittest, etc.}\\
@@ -188,7 +188,7 @@
             \resumeItem{The second semester honored student of the school year 2021}
             \resumeItem{Achieved A+ (10.0) in Data Structure and Algorithm course}
             \resumeItem{Achieved A+ grade in Machine Learning 1 course}
-            \resumeItem{Achieved A+ grade in Data Preparation and Visualization}
+            \resumeItem{Achieved A+ grade in Data Preparation and Visualization course}
         \resumeItemListEnd
         \resumeSubheading
             {Vietnam - Germany High school}{Hanoi, Vietnam}
@@ -232,7 +232,7 @@
         
         \resumeSubItem{\href{https://github.com/Hyprnx/EDA-midterm-group-2}{Exploratory Data Analysis for Hotel dataset: Work with a group of three as the leader for the midterm project of the Data Preparation and Visualization course to create an EDA for the Hotel dataset. The group used Python libraries such as NumPy for calculation, Pandas for data manipulation, Matplotlib, and Plotly for plotting data and creating interactive charts. The final result was 9 on a 10 scale.}}
         
-        \resumeSubItem{\href{https://github.com/Hyprnx/SQL_FINAL_GROUP_2}{Database Management System final project: DDirected a team of four to design and implement a database to manage a telecommunication company using SQL as a final project for Database Management System (DBMS). The database allows the company to create plans to serve prepaid and postpaid customers, manage cash flow, and log errors. The design also allows users to create feedback and rating. The final result received a nine on a ten scale..}}
+        \resumeSubItem{\href{https://github.com/Hyprnx/SQL_FINAL_GROUP_2}{Database Management System final project: Directed a team of four to design and implement a database to manage a telecommunication company using SQL as a final project for Database Management System (DBMS). The database allows the company to create plans to serve prepaid and postpaid customers, manage cash flow, and log errors. The design also allows users to create feedback and rating. The final result received a nine on a ten scale.}}
         
         \resumeSubItem{\href{https://hyprnx.github.io/}{Personal Website: I want to make an introduction website for myself, so I taught myself HTML and CSS to build one and then used Github Pages to publish my website.}}
         
@@ -255,14 +255,14 @@
         \resumeSubheading
             {Data Stucture and Algorithm (DSA)}{NEU, Hanoi, Vietnam}{}{}
                 \resumeTech{OOP}{Understand about four concepts of OOP}\\
-                \resumeTech{Data Stuctures \& Theories}{Undestand about Time Complexity, Space Complexity, Recursion and the concepts and usages of basic data structures such as Array, Queue, Stack, Tree, Heap.}\\
-                \resumeTech{Sorting Algorithms}{Experience using Binary Search, Insertion sort, Heap sort, Bubble sort. Basic understanding of Radix sort}\\
+                \resumeTech{Data Stuctures \& Theories}{Understand Time Complexity, Space Complexity, Recursion, and the concepts and usages of basic data structures such as Array, Queue, Stack, Tree, Heap.}\\
+                \resumeTech{Sorting Algorithms}{Experienced using Binary Search, Insertion sort, Heap sort, Bubble sort. Basic understanding of Radix sort}\\
 
         \resumeSubheading
             {Database Management System (DBMS)}{NEU, Hanoi, Vietnam}{}{}
-            \resumeTech{Designing database}{Understand Business Rules to design tables and database.}\\
+            \resumeTech{Designing database}{Understand Business Rules to design tables and databases.}\\
             \resumeTech{Query}{Experienced how to get data from one or multiple table using SELECT, JOIN.}\\
-            \resumeTech{View, Procedure and Trigger}{Know how to create a view to quickly see data. Understand the usages of Procedure and Trigger, applied those usages in the final project.}
+            \resumeTech{View, Procedure and Trigger}{Know how to create a view to observe data instantly. Understand the usages of Procedure and Trigger, apply those usages in the final project.}
             
         \resumeSubheading
             {Data Preparation and Visualzation}{NEU, Hanoi, Vietnam}{}{}      
@@ -271,7 +271,7 @@
             
         \resumeSubheading
             {Machine Learning 1 (Base on Stanford CS229)}{DSLAB, NEU, Hanoi, Vietnam}{}{}
-            \resumeTech{Maths}{Understand how the model is created, experience proving the algorithms.}\\
+            \resumeTech{Maths}{Understand how to construct the models and prove the algorithms mathematically.}\\
             \resumeTech{Models}{Familiar with different types of regression models such as Linear, Ridge, Lasso, ElasticNet Regression, as well as classification models like SVM, K-mean, Decision Tree. Experienced Ensemble methods such as Decision Tree.}
   
     \resumeSubHeadingListEnd
