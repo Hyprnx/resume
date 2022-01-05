@@ -86,83 +86,95 @@
 % COLOR THEMES SELECTION
 % For Light theme un-comment this and comment the Dark theme section below
 
-\colorlet{urlcolor}{blue}
-\colorlet{textcolor}{black}
-\newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV Dark Theme.pdf}{See Dark theme}}
-\newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
+% \colorlet{urlcolor}{blue}
+% \colorlet{textcolor}{black}
+% \newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Dark_Theme.pdf}{See Dark theme}}
+% \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 
 % For Dark theme un-comment this and comment the Light theme section above
 
-% \colorlet{textcolor}{white!80!gray}
-% \colorlet{backgroundcolor}{black!30!gray}
-% \colorlet{urlcolor}{blue!25!white}
+\colorlet{textcolor}{white!80!gray}
+\colorlet{backgroundcolor}{black!30!gray}
+\colorlet{urlcolor}{blue!25!white}
 \AtBeginDocument{\color{textcolor}}
-% \newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV%20Light%20Theme.pdf}{See light theme}}
-% \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
+\newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Light_Theme.pdf}{See light theme}}
+\newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 % ---
 
 % DOCUMENT MAIN
 \begin{document}
 
 % For Dark theme also un-comment this line:
-% \pagecolor{backgroundcolor}
+\pagecolor{backgroundcolor}
 
 % HEADING
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
     \textbf{\href{https://hyprnx.github.io}{\Large To Duc Anh}} &  \href{https://github.com/hyprnx}{ \faicon{github} \color{urlcolor} Hyprnx} \\
-    \href{mailto:toducanh2001@gmail.com}{toducanh2001@gmail.com} &  \faicon{code} Python, C, R, SQL, HTML\\
+    \href{mailto:toducanh2001@gmail.com}{toducanh2001@gmail.com} &  \faicon{code} Python, C/C++, Docker, R, SQL, HTML\\
     \textsl{\small \LinkedIn} & \textsl{\small \otherThemeRef}
 \end{tabular*}
 % ---
 
+
+% INTRODUCTION
+\section{Introduction}
+    I am a third year Data Science student at National Economics University (NEU) who is learning and gaining knowledge and experience in my field. With the passion for data science, economics and programming, i believe that i am capable of finishing assigned task at the finest level.
+    
 % EXPERIENCE
 \section{Experience}
     \resumeSubHeadingListStart
         \resumeSubheading
+            {DSLAB NEU}{Hanoi, Vietnam}
+            {Member}{November 2021 - Present}
+            \resumeItemListStart
+                \resumeItem{DSLAB is a laboratory belong to the Faculty of Mathematics Economics (MFE) , National Economics University (NEU), specialized in the fields of Data Science and Artificial Intelligent (DS & AI)).}
+            \resumeItemListEnd
+    
+        \resumeSubheading
+            {IBM's Qiskit Localization Team}{(remote) Hanoi, Vietnam}
+            {Translator/Proofreader}{March 2021 - Present}
+            \resumeItemListStart
+                \resumeItem{Translate IBM's Qiskit documentation from English to Vietnamese for the community.}
+            \resumeItemListEnd
+                \resumeTech{Technologies}{Python, Qiskit, Crowdin.}\\
+                \resumeTech{Theory}{Programming, Quantum Physics, Quantum Programming.}
+    
+        \resumeSubheading
             {Vietsearch.org}{Hanoi, Vietnam}
             {Intern}{August 2020 - Present}
-        \resumeItemListStart
-            \resumeItem{
-            Designed, implemented crawlers to crawl data from LinkedIn, Google, Wikipedia, etc. with BeautifulSoup and requests library in Python.}
-            \resumeItem{Optimized existing crawlers, lower 3 times running time.}
-            \resumeItem{Developed query data APIs to serve customer's demand base on Elasticsearch search engine.}
-            \resumeItem{Designed unit and intergration tests for APIs.}
-\resumeItemListEnd
-\resumeTech{Technologies}{Python, Swagger, Flask, Beautifulsoup, Selenium, Unittest, etc.}\\
-\resumeTech{Database}{Elasticsearch, MongoDB.} \\
-\resumeTech{Theory}{Crawling data, cleaning data, systematize data, Query, API, Testing.}
+            \resumeItemListStart
+                \resumeItem{
+                Designed, implemented crawlers to crawl data from LinkedIn, Google, Wikipedia, etc. with BeautifulSoup and requests library in Python.}
+                \resumeItem{Optimized existing crawlers, lower 3 times running time.}
+                \resumeItem{Developed query data APIs to serve customer's demand base on Elasticsearch search engine.}
+                \resumeItem{Designed unit and intergration tests for APIs.}
+            \resumeItemListEnd
+                \resumeTech{Technologies}{Docker, Python, Swagger, Flask, Beautifulsoup, Selenium, Unittest, etc.}\\
+                \resumeTech{Database}{Elasticsearch, MongoDB.} \\
+                \resumeTech{Theory}{Crawling data, cleaning data, systematize data, Query, API, Testing.}
 
-\resumeSubheading
-    {IBM's Qiskit Localization Team}{(remote) Hanoi, Vietnam}
-    {Translator/Proofreader}{March 2021 - Present}
-    \resumeItemListStart
-    \resumeItem{Translate IBM's Qiskit documentation from English to Vietnamese for the community.}
-    \resumeItemListEnd
-    \resumeTech{Technologies}{Python, Qiskit, Crowdin.}\\
-    \resumeTech{Theory}{Programming, Quantum Physics, Quantum Programming.}
+        % \resumeSubheading
+        %     {English Complex}{Hanoi, Vietnam}
+        %     {Employee}{February 2020 - December 2020}
+        %     \resumeItemListStart
+        %         \resumeItem{Manage student data using Microsoft office.}
+        %     \resumeItemListEnd
 
-\resumeSubheading
-    {English Complex}{Hanoi, Vietnam}
-    {Employee}{February 2020 - December 2020}
-    \resumeItemListStart
-    \resumeItem{Manage student data using Microsoft office.}
-    \resumeItemListEnd
+        % \resumeSubSubheading
+        %     {Teaching Assistant}{March 2020 - December 2020}
+        %     \resumeItemListStart
+        %         \resumeItem{Help student improve by correcting their homework}
+        %         \resumeItem{Assist teachers in speaking class.}
+        %     \resumeItemListEnd
 
-    \resumeSubSubheading
-    {Teaching Assistant}{March 2020 - December 2020}
-    \resumeItemListStart
-    \resumeItem{Help student improve by correcting their homework}
-    \resumeItem{Assist teachers in speaking class.}
-    \resumeItemListEnd
-
-\resumeSubheading
-    {Apax Leader}{Hanoi, Vietnam}
-    {Teaching Assistant}{September 2019 - March 2020}
-    \resumeItemListStart
-    \resumeItem{Assist teachers in class.}
-    \resumeItemListEnd
+        % \resumeSubheading
+        %     {Apax Leader}{Hanoi, Vietnam}
+        %     {Teaching Assistant}{September 2019 - March 2020}
+        %     \resumeItemListStart
+        %         \resumeItem{Assist teachers in class.}
+        %     \resumeItemListEnd
     
-\resumeSubHeadingListEnd
+    \resumeSubHeadingListEnd
 % ---
 
 % EDUCATION
@@ -170,14 +182,19 @@
     \resumeSubHeadingListStart
         \resumeSubheading
             {National Economics University}{Hanoi, Vietnam}
-            {Major: Data Science in Economics and Business}{September 2016 -- May 2019}
+            {Major: Data Science in Economics and Business}{September 2019 -- May 2023}
         \resumeItemListStart
-            \resumeItem{GPA: 3.4}
+            \resumeItem{GPA: 3.45/4.0}
+            \resumeItem{The second semester honored student of the school year 2021}
+            \resumeItem{Achieved A+ (10.0) in Data Structure and Algorithm course}
+            \resumeItem{Achieved A+ grade in Machine Learning 1 course}
+            \resumeItem{Achieved A+ grade in Data Preparation and Visualization}
         \resumeItemListEnd
         \resumeSubheading
             {Vietnam - Germany High school}{Hanoi, Vietnam}
-            {GPA: 8.6/10}{September 2019 -- May 2023}
+            {}{September 2016 -- May 2019}
         \resumeItemListStart
+            \resumeItem{GPA: 8.6/10}
             \resumeItem{Third Prize in Biology Contest (2017, 2018)}
             \resumeItem{Third Prize in Geographic Contest (2018)}
         \resumeItemListEnd
@@ -195,25 +212,29 @@
             {Certificate}{Received Date}{(Name and score(s) are given, if possible below)}{}
             
         \resumeSubSubheading{
-            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/IELTS.jpg}{IELTS 7.0}}{Issued April 2019}
+            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/IELTS.jpg}{- IELTS 7.0}}{Issued April 2019}
             
         \resumeSubSubheading{
-            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/IC 3.pdf}{The Internet and Computing Core Certification: 2520}}{Issued December 2019}
+            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/IC 3.pdf}{- The Internet and Computing Core Certification: 2520}}{Issued December 2019}
             
         \resumeSubSubheading{
-            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/Blockchain Mathematics and Computing.jpg}{BLOCKCHAIN MATHEMATICS AND COMPUTING}}{Issued July 2021}
+            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/Blockchain Mathematics and Computing.jpg}{- BLOCKCHAIN MATHEMATICS AND COMPUTING}}{Issued July 2021}
             
         \resumeSubSubheading{
-            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/Qiskit Localization Contributor.pdf}{Qiskit Localization Contributor}}{Issued May 2021}
+            \href{https://github.com/Hyprnx/resume/blob/main/Certificates/Qiskit Localization Contributor.pdf}{- Qiskit Localization Contributor}}{Issued May 2021}
 \resumeSubHeadingListEnd
 % ---
 
 % PROJECTS
 \section{Projects}
     \resumeSubHeadingListStart
-        \resumeSubItem{\href{https://github.com/Hyprnx/SQL_FINAL_GROUP_2}{Data management final project: Telecommunication Company}}
+        \resumeSubItem{\href{https://github.com/Hyprnx/Data-Preparation-Final}{Used car prediction project: A personal project participated in a Kaggle Competition, to get the lowest Root Mean Squared Error(RMSE) when predicting the used car's price. NaNs in Numeric columns were replaced with mean. One-hot Encoding and Target Encoding were also used to encode categorical data. There were ten regression models used to train the data with the help of GridsearchCV. The best model was LGMBregressor, which archived the RMSE of 119k, rank fourth in the competition.}}
         
-        \resumeSubItem{\href{https://hyprnx.github.io/}{Personal Website}}
+        \resumeSubItem{\href{https://github.com/Hyprnx/EDA-midterm-group-2}{Exploratory Data Analysis for Hotel dataset: Work with a group of three as the leader for the midterm project of the Data Preparation and Visualization course to create an EDA for the Hotel dataset. The group used Python libraries such as NumPy for calculation, Pandas for data manipulation, Matplotlib, and Plotly for plotting data and creating interactive charts. The final result was 9 on a 10 scale.}}
+        
+        \resumeSubItem{\href{https://github.com/Hyprnx/SQL_FINAL_GROUP_2}{Database Management System final project: DDirected a team of four to design and implement a database to manage a telecommunication company using SQL as a final project for Database Management System (DBMS). The database allows the company to create plans to serve prepaid and postpaid customers, manage cash flow, and log errors. The design also allows users to create feedback and rating. The final result received a nine on a ten scale..}}
+        
+        \resumeSubItem{\href{https://hyprnx.github.io/}{Personal Website: I want to make an introduction website for myself, so I taught myself HTML and CSS to build one and then used Github Pages to publish my website.}}
         
     \resumeSubHeadingListEnd
 % ---
@@ -229,17 +250,29 @@
 % ---
 
 % PROGRAMMING SKILLS
-\section{Other programming tools}
+\section{Courses}
     \resumeSubHeadingListStart
-        \resumeSubItem{\textbf{Python:} numpy, pandas, matplotlib, Flask, Swagger ,unittest, requests.}
-        
-        \resumeSubItem{\textbf{R:} ggplot, tidyr.}
-      
-        \resumeSubItem{\textbf{Cloud services:} AWS S3}
-        
-        \resumeSubItem{\textbf{Operating systems:} Windows, Linux (Ubuntu)}
-        
-        \resumeSubItem{\textbf{Versions control:} Github}
+        \resumeSubheading
+            {Data Stucture and Algorithm (DSA)}{NEU, Hanoi, Vietnam}{}{}
+                \resumeTech{OOP}{Understand about four concepts of OOP}\\
+                \resumeTech{Data Stuctures \& Theories}{Undestand about Time Complexity, Space Complexity, Recursion and the concepts and usages of basic data structures such as Array, Queue, Stack, Tree, Heap.}\\
+                \resumeTech{Sorting Algorithms}{Experience using Binary Search, Insertion sort, Heap sort, Bubble sort. Basic understanding of Radix sort}\\
+
+        \resumeSubheading
+            {Database Management System (DBMS)}{NEU, Hanoi, Vietnam}{}{}
+            \resumeTech{Designing database}{Understand Business Rules to design tables and database.}\\
+            \resumeTech{Query}{Experienced how to get data from one or multiple table using SELECT, JOIN.}\\
+            \resumeTech{View, Procedure and Trigger}{Know how to create a view to quickly see data. Understand the usages of Procedure and Trigger, applied those usages in the final project.}
+            
+        \resumeSubheading
+            {Data Preparation and Visualzation}{NEU, Hanoi, Vietnam}{}{}      
+            \resumeTech{Preparing data}{Experienced using Python libraries such as Numpy and Pandas to calculate, manipulate and clean data. Implemented other encodings to encode categorical data}\\
+            \resumeTech{Visualizing data}{Used Matplotlib and Plotly to visualize interactive charts}
+            
+        \resumeSubheading
+            {Machine Learning 1 (Base on Stanford CS229)}{DSLAB, NEU, Hanoi, Vietnam}{}{}
+            \resumeTech{Maths}{Understand how the model is created, experience proving the algorithms.}\\
+            \resumeTech{Models}{Familiar with different types of regression models such as Linear, Ridge, Lasso, ElasticNet Regression, as well as classification models like SVM, K-mean, Decision Tree. Experienced Ensemble methods such as Decision Tree.}
   
     \resumeSubHeadingListEnd
 
