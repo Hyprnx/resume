@@ -86,26 +86,26 @@
 % COLOR THEMES SELECTION
 % For Light theme un-comment this and comment the Dark theme section below
 
-\colorlet{urlcolor}{blue}
-\colorlet{textcolor}{black}
-\newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Dark_Theme.pdf}{See Dark theme}}
-\newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
+% \colorlet{urlcolor}{blue}
+% \colorlet{textcolor}{black}
+% \newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Dark_Theme.pdf}{See Dark theme}}
+% \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 
 % For Dark theme un-comment this and comment the Light theme section above
 
-% \colorlet{textcolor}{white!80!gray}
-% \colorlet{backgroundcolor}{black!30!gray}
-% \colorlet{urlcolor}{blue!25!white}
+\colorlet{textcolor}{white!80!gray}
+\colorlet{backgroundcolor}{black!30!gray}
+\colorlet{urlcolor}{blue!25!white}
 \AtBeginDocument{\color{textcolor}}
-% \newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Light_Theme.pdf}{See light theme}}
-% \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
+\newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Light_Theme.pdf}{See light theme}}
+\newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
 % ---
 
 % DOCUMENT MAIN
 \begin{document}
 
 % For Dark theme also un-comment this line:
-% \pagecolor{backgroundcolor}
+\pagecolor{backgroundcolor}
 % 
 % HEADING
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
@@ -118,7 +118,7 @@
 
 % INTRODUCTION
 \section{Introduction}
-    I am a third-year Data Science student at National Economics University (NEU) who is learning and gaining knowledge and experience in my field. With a passion for data science, economics, and programming, I believe that I am capable of finishing the assigned task at the finest level.
+    I am a third-year Data Science student at National Economics University (NEU). With my childhood passion for numbers, economics, and programming, I believe that I am capable of finishing the assigned tasks at the finest level.
     
 % EXPERIENCE
 \section{Experience}
@@ -203,6 +203,34 @@
 
 \newpage
 
+% PROGRAMMING SKILLS
+\section{Courses}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {Data Stucture and Algorithm (DSA)}{NEU, Hanoi, Vietnam}{}{}
+                \resumeTech{OOP}{Understand about four concepts of OOP}\\
+                \resumeTech{Data Stuctures \& Theories}{Understand Time Complexity, Space Complexity, Recursion, and the concepts and usages of basic data structures such as Array, Queue, Stack, Tree, Heap.}\\
+                \resumeTech{Sorting Algorithms}{Experienced using Binary Search, Insertion sort, Heap sort, Bubble sort. Basic understanding of Radix sort}\\
+
+        \resumeSubheading
+            {Database Management System (DBMS)}{NEU, Hanoi, Vietnam}{}{}
+            \resumeTech{Designing database}{Understand Business Rules to design tables and databases.}\\
+            \resumeTech{Query}{Experienced how to get data from one or multiple table using SELECT, JOIN.}\\
+            \resumeTech{View, Procedure and Trigger}{Know how to create a view to observe data instantly. Understand the usages of Procedure and Trigger, apply those usages in the final project.}
+            
+        \resumeSubheading
+            {Data Preparation and Visualzation}{NEU, Hanoi, Vietnam}{}{}      
+            \resumeTech{Preparing data}{Experienced using Python libraries such as Numpy and Pandas to calculate, manipulate and clean data. Implemented other encodings to encode categorical data}\\
+            \resumeTech{Visualizing data}{Used Matplotlib and Plotly to visualize interactive charts}
+            
+        \resumeSubheading
+            {Machine Learning 1 (Base on Stanford CS229)}{DSLAB, NEU, Hanoi, Vietnam}{}{}
+            \resumeTech{Maths}{Understand how to construct the models and prove the algorithms mathematically.}\\
+            \resumeTech{Models}{Familiar with different types of regression models such as Linear, Ridge, Lasso, ElasticNet Regression, as well as classification models like SVM, K-mean, Decision Tree. Experienced Ensemble methods such as Decision Tree.}
+  
+    \resumeSubHeadingListEnd
+
+
 \hfill \textsl{Following sections items are clickable}
 
 % CERTIFICATIONS
@@ -249,32 +277,6 @@
 %   \resumeSubHeadingListEnd
 % ---
 
-% PROGRAMMING SKILLS
-\section{Courses}
-    \resumeSubHeadingListStart
-        \resumeSubheading
-            {Data Stucture and Algorithm (DSA)}{NEU, Hanoi, Vietnam}{}{}
-                \resumeTech{OOP}{Understand about four concepts of OOP}\\
-                \resumeTech{Data Stuctures \& Theories}{Understand Time Complexity, Space Complexity, Recursion, and the concepts and usages of basic data structures such as Array, Queue, Stack, Tree, Heap.}\\
-                \resumeTech{Sorting Algorithms}{Experienced using Binary Search, Insertion sort, Heap sort, Bubble sort. Basic understanding of Radix sort}\\
-
-        \resumeSubheading
-            {Database Management System (DBMS)}{NEU, Hanoi, Vietnam}{}{}
-            \resumeTech{Designing database}{Understand Business Rules to design tables and databases.}\\
-            \resumeTech{Query}{Experienced how to get data from one or multiple table using SELECT, JOIN.}\\
-            \resumeTech{View, Procedure and Trigger}{Know how to create a view to observe data instantly. Understand the usages of Procedure and Trigger, apply those usages in the final project.}
-            
-        \resumeSubheading
-            {Data Preparation and Visualzation}{NEU, Hanoi, Vietnam}{}{}      
-            \resumeTech{Preparing data}{Experienced using Python libraries such as Numpy and Pandas to calculate, manipulate and clean data. Implemented other encodings to encode categorical data}\\
-            \resumeTech{Visualizing data}{Used Matplotlib and Plotly to visualize interactive charts}
-            
-        \resumeSubheading
-            {Machine Learning 1 (Base on Stanford CS229)}{DSLAB, NEU, Hanoi, Vietnam}{}{}
-            \resumeTech{Maths}{Understand how to construct the models and prove the algorithms mathematically.}\\
-            \resumeTech{Models}{Familiar with different types of regression models such as Linear, Ridge, Lasso, ElasticNet Regression, as well as classification models like SVM, K-mean, Decision Tree. Experienced Ensemble methods such as Decision Tree.}
-  
-    \resumeSubHeadingListEnd
 
 % ---
 \end{document}
