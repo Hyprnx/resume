@@ -90,6 +90,7 @@
 % \colorlet{textcolor}{black}
 % \newcommand{\otherThemeRef}{\href{https://github.com/Hyprnx/resume/raw/main/CV_Dark_Theme.pdf}{See Dark theme}}
 % \newcommand{\LinkedIn}{\href{https://www.linkedin.com/in/duc-anh-to/}{My LinkedIn: To Duc Anh}}
+% \AtBeginDocument{\color{textcolor}}
 
 % For Dark theme un-comment this and comment the Light theme section above
 
@@ -123,25 +124,33 @@
 % EXPERIENCE
 \section{Experience}
     \resumeSubHeadingListStart
+    
+        \resumeSubheading{TNG Holdings Vietnam - TNG Loyalty Department}{Hanoi, Vietnam}
+        {Collaborator Data Scientist}{April 2022 - Present}
+            \resumeItemListStart
+                \resumeItem{Take part in analyzing data and building Data Lake, Data Warehouse.}
+            \resumeItemListEnd
+                \resumeTech{Technologies/Tools}{Basic Knowledge of Networking, On Cloud and On-Premise, k8s, Ansible, Jenkins and Nexus. Designed and fabricated the above technologies on Linux (CentOS) Virtual Machine with Vagrant.}
+        
         \resumeSubheading
             {DSLAB NEU}{Hanoi, Vietnam}
             {Member}{November 2021 - Present}
             \resumeItemListStart
-                \resumeItem{DSLAB is a laboratory belonging to the Faculty of Mathematics Economics (MFE), National Economics University (NEU), specialized in the fields of Data Science and Artificial Intelligent (DS \& AI)).}
+                \resumeItem{DSLAB is a laboratory belonging to the Faculty of Mathematics Economics (MFE), National Economics University (NEU), specialized in the fields of Data Science and Artificial Intelligent (DS \& AI).}
             \resumeItemListEnd
     
         \resumeSubheading
             {IBM's Qiskit Localization Team}{(remote) Hanoi, Vietnam}
             {Translator/Proofreader}{March 2021 - Present}
             \resumeItemListStart
-                \resumeItem{Translate IBM's Qiskit documentation from English to Vietnamese for the community.}
+                \resumeItem{Localize IBM's Qiskit documentation to Vietnamese for the community.}
             \resumeItemListEnd
-                \resumeTech{Technologies}{Python, Qiskit, Crowdin.}\\
+                \resumeTech{Technologies/Tools}{Python, Qiskit, Crowdin.}\\
                 \resumeTech{Theory}{Programming, Quantum Physics, Quantum Programming.}
     
         \resumeSubheading
-            {Vietsearch.org}{Hanoi, Vietnam}
-            {Intern}{August 2020 - Present}
+            {Vietsearch Foundation}{Hanoi, Vietnam}
+            {Intern \& Collaborator}{August 2020 - March 2022}
             \resumeItemListStart
                 \resumeItem{
                 Designed, implemented crawlers to crawl data from LinkedIn, Google, Wikipedia, etc. with BeautifulSoup and requests library in Python.}
@@ -184,20 +193,22 @@
             {National Economics University}{Hanoi, Vietnam}
             {Major: Data Science in Economics and Business}{September 2019 -- May 2023}
         \resumeItemListStart
-            \resumeItem{GPA: 3.45/4.0}
-            \resumeItem{The second semester honored student of the school year 2021}
+            \resumeItem{GPA: 3.53/4.0}
+            \resumeItem{Third prize in student scientific research contest}
+            \resumeItem{The second semester scholarship of the school year 2021}
+            \resumeItem{The first semester scholarship of the school year 2022}
             \resumeItem{Achieved A+ (10.0) in Data Structure and Algorithm course}
             \resumeItem{Achieved A+ grade in Machine Learning 1 course}
             \resumeItem{Achieved A+ grade in Data Preparation and Visualization course}
         \resumeItemListEnd
-        \resumeSubheading
-            {Vietnam - Germany High school}{Hanoi, Vietnam}
-            {}{September 2016 -- May 2019}
-        \resumeItemListStart
-            \resumeItem{GPA: 8.6/10}
-            \resumeItem{Third Prize in Biology Contest (2017, 2018)}
-            \resumeItem{Third Prize in Geographic Contest (2018)}
-        \resumeItemListEnd
+        % \resumeSubheading
+        %     {Vietnam - Germany High school}{Hanoi, Vietnam}
+        %     {}{September 2016 -- May 2019}
+        % \resumeItemListStart
+        %     \resumeItem{GPA: 8.6/10}
+        %     \resumeItem{Third Prize in Biology Contest (2017, 2018)}
+        %     \resumeItem{Third Prize in Geographic Contest (2018)}
+        % \resumeItemListEnd
     \resumeSubHeadingListEnd
 % ---
 
@@ -210,28 +221,28 @@
             {Data Stucture and Algorithm (DSA)}{NEU, Hanoi, Vietnam}{}{}
                 \resumeTech{OOP}{Understand about four concepts of OOP}\\
                 \resumeTech{Data Stuctures \& Theories}{Understand Time Complexity, Space Complexity, Recursion, and the concepts and usages of basic data structures such as Array, Queue, Stack, Tree, Heap.}\\
-                \resumeTech{Sorting Algorithms}{Experienced using Binary Search, Insertion sort, Heap sort, Bubble sort. Basic understanding of Radix sort}\\
+                \resumeTech{Sorting Algorithms}{Experienced using Binary Search, Insertion sort, Heap sort, Bubble sort. Basic understanding of Radix sort.}\\
 
-        \resumeSubheading
-            {Database Management System (DBMS)}{NEU, Hanoi, Vietnam}{}{}
-            \resumeTech{Designing database}{Understand Business Rules to design tables and databases.}\\
-            \resumeTech{Query}{Experienced how to get data from one or multiple table using SELECT, JOIN.}\\
-            \resumeTech{View, Procedure and Trigger}{Know how to create a view to observe data instantly. Understand the usages of Procedure and Trigger, apply those usages in the final project.}
+        % \resumeSubheading
+        %     {Database Management System (DBMS)}{NEU, Hanoi, Vietnam}{}{}
+        %     \resumeTech{Designing database}{Understand Business Rules to design tables and databases.}\\
+        %     \resumeTech{Query}{Experienced how to get data from one or multiple table using SELECT, JOIN.}\\
+        %     \resumeTech{View, Procedure and Trigger}{Know how to create a view to observe data instantly. Understand the usages of Procedure and Trigger, apply those usages in the final project.}
             
-        \resumeSubheading
-            {Data Preparation and Visualzation}{NEU, Hanoi, Vietnam}{}{}      
-            \resumeTech{Preparing data}{Experienced using Python libraries such as Numpy and Pandas to calculate, manipulate and clean data. Implemented other encodings to encode categorical data}\\
-            \resumeTech{Visualizing data}{Used Matplotlib and Plotly to visualize interactive charts}
+        % \resumeSubheading
+        %     {Data Preparation and Visualzation}{NEU, Hanoi, Vietnam}{}{}      
+        %     \resumeTech{Preparing data}{Experienced using Python libraries such as Numpy and Pandas to calculate, manipulate and clean data. Implemented other encodings to encode categorical data}\\
+        %     \resumeTech{Visualizing data}{Used Matplotlib and Plotly to visualize interactive charts}
             
         \resumeSubheading
             {Machine Learning 1 (Base on Stanford CS229)}{DSLAB, NEU, Hanoi, Vietnam}{}{}
             \resumeTech{Maths}{Understand how to construct the models and prove the algorithms mathematically.}\\
-            \resumeTech{Models}{Familiar with different types of regression models such as Linear, Ridge, Lasso, ElasticNet Regression, as well as classification models like SVM, K-mean, Decision Tree. Experienced Ensemble methods such as Decision Tree.}
+            \resumeTech{Models}{Familiar with different types of regression models such as Linear, Ridge, Lasso, ElasticNet Regression, as well as classification models like SVM, K-mean, Decision Tree. Experienced Ensemble methods such as Decision Tree, Adaboost, CatBoost, xgBoost and LightGBM.}
   
     \resumeSubHeadingListEnd
 
 
-\hfill \textsl{Following sections items are clickable}
+\hfill \textsl{Following sections items are clickable on the pdf file.}
 
 % CERTIFICATIONS
 \section{Certifications}
@@ -268,15 +279,20 @@
 % ---
 
 % PERSONAL PUBLICATIONS
-% \section{Personal publications}
-
-%   \resumeSubHeadingListStart
-%     \resumeSubItem{\href{http://scivisionpub.com/pdfs/diodes-laser-in-office-endoscopic-surgery-center-for-nasal-obstruction-and-snoring-558.pdf}{Sajidxa Mariño, Jesus Lares, Wilmer Gonzalez. Diode’s Laser in Office Endoscopic Surgery Center for Nasal Obstruction
-% and Snoring. J Med - Clin Res \& Rev. 2018; 2(6): 1-3.}}
+\section{Personal researches and publications}
+  \resumeSubHeadingListStart
+    \resumeSubheading{\href{https://github.com/Hyprnx/used-cars-prices-prediction}{Used Cars Prices Prediction}}{Published on National Scientific Conference}{}{Hanoi, April, 2022}
     
-%   \resumeSubHeadingListEnd
+        \resumeSubSubheading{ISBN: 978-604-358-602-2}{}{}
+        
+        \resumeSubSubheading{-Investigated and extracted used cars information that are selling on Vietnamese E-commerce site.}{}{}
+        
+        \resumeSubSubheading{-Constructed a Machine Learning model to help Vietnamese choosing the right used cars for their demands.}{}{}
+        
+        \resumeSubSubheading{-Conducted a dataset consists of all cars specifications (with variants) while doing Data Prepossessing.}{}{}
+    
+  \resumeSubHeadingListEnd
 % ---
-
 
 % ---
 \end{document}
